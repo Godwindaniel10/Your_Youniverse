@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 header {
     z-index: 999;
     position: fixed;
@@ -100,12 +104,12 @@ header {
 }
 .navlink-container .navlink1 {
    /* border: 2px solid #fff;*/
-    width: 300px;
+    width: 330px;
     height: 100%;
 }
 .navlink-container .navlink2 {
    /* border: 2px solid #fff;*/
-    width: 330px;
+    width: 350px;
     height: 100%;
     text-align: center;
 }
@@ -118,6 +122,9 @@ header {
     text-decoration: none;
     color: #fff;
     background: #266863;
+}
+.navlink2 a:hover {
+    border: 2px solid #d39313;
 }
 .navlink2 .contact {
     /*border: 2px solid #fff;*/
@@ -134,7 +141,8 @@ header {
     color: #fff;
     border: 2px solid #d39313;
     border-radius: 50px;
-    padding: 12px 40px;
+    padding: 10px 30px;
+    font-size: 18px;
 }
 .navlink1 a:hover {
     background: #d39313;
