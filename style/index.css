@@ -9,6 +9,10 @@ body {
 }
 
 header {
+    width: 100%;
+    height: 100vh;
+}
+.header-container {
     z-index: 999;
     position: fixed;
     top: 0;
@@ -17,7 +21,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #23252b;
     box-shadow: 0 5px 25px rgb( 0 0 0 / 20%);
     transition: 0.6s;
     height: 100px;
@@ -57,7 +60,6 @@ header {
     /*border: 2px solid rgb(0, 255, 213);*/
     width: 100%;
     height: 620px;
-    z-index: 1001;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -69,12 +71,13 @@ header {
     padding: 20px;
     color: #fff;
     position: relative;
+    z-index: 1001;
 }
 .image2 .box1 h1 {
     font-family: 'Caesar Dressing', cursive;
     letter-spacing: 7px;
     text-align: center;
-   /* border-bottom: 2px solid #fff;*/
+    border-bottom: 2px solid #fff;
 }
 .image2 .box1 p {
     text-align: center;
@@ -91,7 +94,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 470px
+    height: 470px;
 }
 
 .navlink-container {
@@ -149,14 +152,14 @@ header {
     transition: 500ms;
 }
 
-header .navigation {
+.header-container .navigation {
     position: relative;
     line-height: 75px;
     /*border: 2px solid #fff;*/
     width: 100%;
 }
 
-header .navigation .menu {
+.header-container .navigation .menu {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -252,17 +255,9 @@ header .navigation .menu {
     background: #4080ef;
 }
 
-.subheader {
-    background-color: crimson;
-    width: 100%;
-    height: 100vh;
-    background-image: url("https://i1.sndcdn.com/artworks-000141771948-8l49pm-t500x500.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 #background-video {
-    position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -271,6 +266,54 @@ header .navigation .menu {
 
 
 
+  /* main section */
+
+main {
+    background-color: crimson;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (max-width: 1060px){
 
     header .navigation .menu {
@@ -357,3 +400,4 @@ header .navigation .menu {
         cursor: pointer;
     }
 }
+*/
