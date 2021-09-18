@@ -1423,7 +1423,7 @@ img {
 }
 .left-zone {
     width: 100%;
-    height: 950px;
+    height: 1150px;
     background-image: url("https://images.pexels.com/photos/372281/pexels-photo-372281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     background-size: cover;
@@ -1445,7 +1445,8 @@ img {
     font-family: 'PT Serif', serif;
     font-size: 32px;
     text-transform: uppercase;
-    top: -8rem;
+    top: -12rem;
+    letter-spacing: 5px;
 }
 
 .header-intro span {
@@ -1515,6 +1516,9 @@ img {
     text-decoration: none;
     padding: 5px;
     color: rgb(43, 43, 43);
+}
+.right-zone .accounts .youtube li a:hover , .right-zone .accounts .blog li a:hover {
+    text-decoration: underline;
 }
 .right-zone .accounts .tiktok li a, .right-zone .accounts .facebook li a {
     color: rgb(43, 43, 43);
