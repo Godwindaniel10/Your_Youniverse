@@ -69,35 +69,32 @@
 
             <!--Card 1-->
             <div class="card1">
-              <div class="header">
+              <div class="header1">
                   <div class="title">
                     <div>
-                      <h1>5 ways to create inspiring articles</h1>
-                      <h6><span>by</span> Joe Bloggs</h6>
+                      <h1>Guide To The 7 Chakras Explained</h1>
+                      <h6><span>by</span> 
+                        Rachel Jacoby Zoldan</h6>
                     </div>
                 </div>
               </div>
-              <div class="content">
+              <div class="content1">
               
-                <div class="closebar">
-                  <h1>5 ways to create...</h1>
-                    <a href="#0" class="closebttn"><i class="material-icons">&#xE5CD;</i></a>
+                <div class="closebar1">
+                  <h1>7 Chakras Explained...</h1>
+                    <a href="#0" class="closebttn1"><i class="fas fa-times"></i></a>
                   </div>
-                <p>Isn't it great to do something you can't fail at? Work on one thing at a time. Don't get carried away - we have plenty of time. You can do it. If we're gonna walk though the woods, we need a little path. You have to make these big decisions.</p>
+                <p>Odds are, if you've attended a yoga class, group meditation, or indulged in an hour-long reiki session, your instructor or practitioner most likely spoke about your chakras. In my yoga class, my teacher often brings up the third-eye chakra, located between the brows, saying it's responsible for human intuition and the inner light within us. But what are chakras, really?
+                  <br><br>
+                  Literally speaking, the word "chakra" from Sanskrit translates to "wheel" or "disk," but references a spiritual energy center within the human body, of which there are seven along the spine, and through the neck and the crown of your head, according to the Chopra Center.
+                </p>
           
-          <p>We don't really know where this goes - and I'm not sure we really care. Get away from those little Christmas tree things we used to make in school. From all of us here, I want to wish you happy painting and God bless, my friends. If you don't think every day is a good day - try missing a few. You'll see.</p>
           
-          <p>Do an almighty painting with us. Remember how free clouds are. They just lay around in the sky all day long. When you do it your way you can go anywhere you choose. Put your feelings into it, your heart, it's your world. You can't have light without dark. You can't know happiness unless you've known sorrow.</p>
-          
-          <p>Use absolutely no pressure. Just like an angel's wing. These trees are so much fun. I get started on them and I have a hard time stopping. Every day I learn.</p>
-          
-          <img src="http://placehold.it/380x200">
+          <img src="https://uploads-ssl.webflow.com/566f41e69091869557a9d12d/5d28d63ae54cb55311fef1ae_5d28d5a8a66e8102d002872e_ifQKP1OUYBCxC5xSHoEucjSw8YXAm5LpdPXDFSt2OXafWNuO26HFl9fwzneurvVpDcPSLNhog7-vytxXBPn9cinqtiP2AD2rCJbJt5sqRw1SubLvuSJ6SyxxSB1svsfo0V0FsriX.png">
           
                 
-          <p>There's not a thing in the world wrong with washing your brush. You've got to learn to fight the temptation to resist these things. Just let them happen. Painting should do one thing. It should put happiness in your heart. I can't think of anything more rewarding than being able to express yourself to others through....
-          </p>
-               <a href="#0" class="bttn">Read Full Article</a>
-               <a href="#0" class="readmore"></a>
+               <a href="https://www.wellandgood.com/what-are-chakras/" target="_blank" class="bttn1">Read Full Article</a>
+               <a href="#0" class="readmore1"></a>
               </div>
             </div>
 
@@ -177,7 +174,7 @@
                   
             <p>There's not a thing in the world wrong with washing your brush. You've got to learn to fight the temptation to resist these things. Just let them happen. Painting should do one thing. It should put happiness in your heart. I can't think of anything more rewarding than being able to express yourself to others through....
             </p>
-                 <a href="#0" class="bttn3">Read Full Article</a>
+                 <a href="https://www.ask-angels.com/spiritual-guidance/third-eye-meditation/" target="_blank" class="bttn3">Read Full Article</a>
                  <a href="#0" class="readmore3"></a>
                 </div>
               </div>
@@ -295,6 +292,19 @@
     
 
    <script>
+     $('.readmore1').click(function() {
+          $('.content1').toggleClass('full1');
+          $('.header1').toggleClass('collapse1');
+          $('.readmore1').toggle();
+        });
+        $('.closebttn1').click(function() {
+  $('.content1').removeClass('full1');
+  $('.header1').removeClass('collapse1');
+  $('.readmore1').toggle();
+});
+
+
+
           $('.readmore2').click(function() {
           $('.content2').toggleClass('full2');
           $('.header2').toggleClass('collapse2');
@@ -316,6 +326,8 @@ $('.readmore3').click(function() {
   $('.header3').removeClass('collapse3');
   $('.readmore3').toggle();
 });
+
+
    </script>
 </body>
 </html>
