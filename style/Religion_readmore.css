@@ -9,14 +9,14 @@
     text-transform: uppercase;
     font: weight 900;
     font-family: 'Poppins', sans-serif;
-    color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
     padding: 0;
 }
 
 .text2 {
     font-size: 4rem;
     text-transform: uppercase;
-    color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
     text-align: end;
     font-family: 'IM Fell French Canon', serif;
     letter-spacing: 20px;
@@ -31,17 +31,23 @@ p {
     font-size: 18px;
     line-height: 27px;
 }
-/*
-.hell-img {
-    background-image: url("https://images.pexels.com/photos/8241747/pexels-photo-8241747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+.header-intro {
+    background-image: url("https://images.pexels.com/photos/4107748/pexels-photo-4107748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
-}*/
-img {
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
+}
+ul li {
+    margin: 1rem 0;
+}
+h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 5rem 0;
+}
+span {
+    color: green;
 }
