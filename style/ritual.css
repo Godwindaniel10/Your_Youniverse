@@ -99,3 +99,12 @@ span {
     color:#d39313;
     font-family: 'IM Fell French Canon', serif;
 }
+.h1 {
+    font-size: 30px;
+    font-style: italic;
+}
+.h2 {
+    color:orangered;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
