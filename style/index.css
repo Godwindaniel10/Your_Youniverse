@@ -1468,17 +1468,12 @@ img {
     text-align: center;
     border-radius: 20px;
 }
-.right-zone .accounts .facebook{
-    box-shadow: 0 0 5px 0 rgb(121 93 57 / 44%);
-    padding: 20px;
-    text-align: center;
-    border-radius: 0 20px 20px 0;
-}
+
 .right-zone .accounts .blog{
     box-shadow: 0 0 5px 0 rgb(121 93 57 / 44%);
     padding: 20px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
 }
 .right-zone .accounts ul {
     margin-top: 1rem;
@@ -1518,11 +1513,17 @@ img {
 
 /* footer */
 
-footer {
-    align-self: flex-end;
-    height: 500px;
+.footer {
+    margin-top: 15rem;
+    height: 200px;
     width: 100%;
     background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+      color: #fff;
   }
 
 

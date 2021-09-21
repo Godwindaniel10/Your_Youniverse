@@ -116,3 +116,24 @@ header {
     margin: 20px 0;
     font-size: 20px;
 }
+
+/* footer */
+
+.footer {
+    margin-top: 15rem;
+    height: 200px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60rem;
+  }
+  .copyright {
+      color: #fff;
+  }
+
+  main {
+      position: relative;
+  }

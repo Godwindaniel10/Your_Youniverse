@@ -111,3 +111,18 @@ span {
 ul li {
     margin: 20px 0;
 }
+
+/* footer */
+
+.footer {
+    margin-top: 15rem;
+    height: 200px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+      color: #fff;
+  }
