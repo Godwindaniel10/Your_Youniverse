@@ -1104,7 +1104,7 @@ img {
 
 
 /* About section */
-.about-intro-mobile {
+.about-intro-mobile , .religion-intro-mobile{
     display: none;
 }
 .about-container {
@@ -1663,7 +1663,7 @@ img {
 
 main {
     width: 100%;
-    height: 500vh;
+    height: 1000vh;
     border: 2px solid #000;
     position: relative;
     margin-top: 5rem;
@@ -1673,7 +1673,6 @@ main {
         display: block;
         position: absolute;
         padding: 30px;
-       border: 2px solid rgb(248, 1, 1);
         margin-top: 5rem;
     }
     .card1{
@@ -1686,10 +1685,9 @@ main {
     }
     .about-container {
         position: absolute;
-        border: 2px solid #3a9791;
-        top: 130rem;
+        top: 133rem;
         width: 100%;
-        height: 150vh;
+        height: auto;
     }
    
      .about-container .about-intro-mobile {
@@ -1715,14 +1713,12 @@ main {
     
     .about-container-2  {
         width: 100%;
-        height: 850px;
-        border: 2px solid blue;
+        height: 800px;
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
     }
     .about-container-2 .leftbox {
-        border: 2px solid rgb(255, 0, 0);
         width: 100%;
         height: auto;
     }
@@ -1752,6 +1748,81 @@ main {
 
 
 
+
+    .religion-container {
+        position: absolute;
+        top: 215rem;
+    }
+   
+     .religion-container .religion-intro-mobile {
+        display: block;
+        position: relative;
+        padding: 0;
+     }
+     .religion-container .religion-intro-mobile .text1-mobile {
+         font-size: 3rem;
+         text-transform: uppercase;
+         font: weight 900;
+         font-family: 'Poppins', sans-serif;
+         color: rgb(51, 51, 51);
+     }
+     .religion-container .religion-intro-mobile .text2-mobile {
+        font-size: 1.5rem;
+        position: absolute;
+        font-weight: 600;
+        font-family: 'IM Fell French Canon', serif;
+        color: rgb(51, 51, 51);
+        letter-spacing: 10px;
+    }
+    
+    .religion-container-2  {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 3rem;
+        position: relative;
+    }
+    .religion-container-2 .leftbox {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50rem;
+    }
+    .religion-container-2 .leftbox .img1 {
+        width: 200px;
+        height: 200px;
+    }
+    .religion-container-2 .leftbox .img2 {
+        width: 100px;
+        height: 100px;
+        left: -3rem;
+        top: -2.5rem;
+    }
+    .religion-container-2 .leftbox .img3 {
+        width: 150px;
+        height: 150px;
+        right: -3rem;
+        top: -1.5rem;
+    }
+    .religion-container-2 .leftbox .img4 {
+        width: 100px;
+        height: 100px;
+        left: -2rem;
+        bottom: -2rem;
+    }
+    .religion-container-2 .rightbox .header-text {
+        text-transform: uppercase;
+        color: rgb(107, 107, 107);
+        border-bottom: 2px solid #999;
+        font-family: 'Roboto', sans-serif;
+        margin-top: -2rem;
+        font-size: 25px;
+    }
+   
+
+
     
 
 
@@ -1759,7 +1830,7 @@ main {
 
 
 
-    .image-container .image1-container , .image-container .image3-container, .religion-container, .ritual-container, .footer, .social-media-links-container, .about-container .text2 , .about-container .text1 , .about-container-2 .rightbox .header-text, .about-container-2 .rightbox .p-text, .about-container-2 .rightbox .about-me-btn {
+    .image-container .image1-container , .image-container .image3-container, .ritual-container, .footer, .social-media-links-container, .about-container .text2 , .about-container .text1, .religion-container .text1  {
         display: none;
     }
 }
