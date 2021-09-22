@@ -1104,7 +1104,9 @@ img {
 
 
 /* About section */
-
+.about-intro-mobile {
+    display: none;
+}
 .about-container {
     /*border: 2px solid #000;*/
     width: 100%;
@@ -1682,13 +1684,44 @@ main {
         width: 100%;
         margin: 3.5rem auto 0 auto;
     }
+    .about-container {
+        position: absolute;
+        border: 2px solid #3a9791;
+        top: 130rem;
+        width: 100%;
+        height: 150vh;
+    }
+   
+     .about-container .about-intro-mobile {
+        display: block;
+        position: relative;
+        padding: 0;
+     }
+     .about-container .about-intro-mobile .text1-mobile {
+         font-size: 3rem;
+         text-transform: uppercase;
+         font: weight 900;
+         font-family: 'Poppins', sans-serif;
+         color: rgb(51, 51, 51);
+     }
+     .about-container .about-intro-mobile .text2-mobile {
+        font-size: 1.5rem;
+        position: absolute;
+        font-weight: 600;
+        font-family: 'IM Fell French Canon', serif;
+        color: rgb(51, 51, 51);
+        letter-spacing: 10px;
+    }
+    
+     
+    
 
 
 
 
 
 
-    .image-container .image1-container , .image-container .image3-container, .about-container, .religion-container, .ritual-container, .footer, .social-media-links-container {
+    .image-container .image1-container , .image-container .image3-container, .religion-container, .ritual-container, .footer, .social-media-links-container, .about-container-2 , .about-container .text2 , .about-container .text1 {
         display: none;
     }
 }
