@@ -1519,7 +1519,7 @@ img {
 .left-zone {
     width: 100%;
     height: 1150px;
-    background-image: url("https://images.pexels.com/photos/372281/pexels-photo-372281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("/image/social-media-left-img.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
