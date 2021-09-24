@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 .logo {
     position: absolute;
@@ -275,7 +276,7 @@ header {
 
 main {
     width: 100%;
-    height: 200vh;
+    height: auto;
 }
 
 .flex {
@@ -1549,6 +1550,9 @@ img {
 .header-intro .span2{
     color: rgb(0, 0, 0);
 }
+.header-intro-mobile, .ritual-intro-mobile {
+    display: none;
+}
 .right-zone .accounts {
     width: 100%;
     height: auto;
@@ -1563,12 +1567,30 @@ img {
     padding: 20px;
     text-align: center;
     border-radius: 0 20px 20px 0;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.616), 
+        rgba(0, 0, 0, 0.616)
+      ),
+    url("https://i.pinimg.com/originals/b7/d9/59/b7d9593b5fa561eaf0eccae3be8666f0.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .right-zone .accounts .tiktok {
     box-shadow: 0 0 5px 0 rgb(121 93 57 / 44%);
     padding: 20px;
     text-align: center;
     border-radius: 20px;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.616), 
+        rgba(0, 0, 0, 0.616)
+      ),
+    url("https://i.pinimg.com/originals/a1/6b/42/a16b42f39f34387f934ad11c7fc2fe9c.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .right-zone .accounts .blog{
@@ -1576,6 +1598,15 @@ img {
     padding: 20px;
     text-align: center;
     border-radius: 0 20px 20px 0;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.616), 
+        rgba(0, 0, 0, 0.616)
+      ),
+    url("https://i.pinimg.com/originals/8e/c4/32/8ec4324d97216a60414ca8774c8c8748.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .right-zone .accounts ul {
     margin-top: 1rem;
@@ -1583,6 +1614,7 @@ img {
 
 .right-zone .accounts h1 i {
     font-size: 50px;
+    color: #fff;
 }
 .right-zone .accounts .youtube li {
     list-style: none;
@@ -1603,13 +1635,13 @@ img {
 .right-zone .accounts .youtube li a , .right-zone .accounts .blog li a{
     text-decoration: none;
     padding: 5px;
-    color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
 }
 .right-zone .accounts .youtube li a:hover , .right-zone .accounts .blog li a:hover {
     text-decoration: underline;
 }
-.right-zone .accounts .tiktok li a, .right-zone .accounts .facebook li a {
-    color: rgb(43, 43, 43);
+.right-zone .accounts .tiktok li {
+    color: rgb(255, 255, 255);
 }
 
 
@@ -1638,6 +1670,7 @@ img {
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+
     header {
         width: 100%;
         height: 100vh;
@@ -1663,10 +1696,10 @@ img {
 
 main {
     width: 100%;
-    height: 1000vh;
-    border: 2px solid #000;
+    height: auto;
     position: relative;
     margin-top: 5rem;
+
 }
     .flex {
        min-height: 100vh;
@@ -1820,9 +1853,173 @@ main {
         margin-top: -2rem;
         font-size: 25px;
     }
+
+
+
+
+
+
+    .ritual-container {
+        position: absolute;
+        top: 300rem;
+        width: 100%;
+        height: auto;
+    }
    
+     .ritual-container .ritual-intro-mobile {
+        display: block;
+        position: relative;
+        padding: 0;
+     }
+     .ritual-container .ritual-intro-mobile .text1-mobile {
+         font-size: 3rem;
+         text-transform: uppercase;
+         font: weight 900;
+         font-family: 'Poppins', sans-serif;
+         color: rgb(51, 51, 51);
+     }
+     .ritual-container .ritual-intro-mobile .text2-mobile {
+        font-size: 1.5rem;
+        position: absolute;
+        font-weight: 600;
+        font-family: 'IM Fell French Canon', serif;
+        color: rgb(51, 51, 51);
+        letter-spacing: 10px;
+    }
+    
+    .ritual-container-2  {
+        width: 100%;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 3rem;
+    }
+    .ritual-container-2 .leftbox {
+        width: 100%;
+        height: auto;
+    }
+    .ritual-container-2 .rightbox  {
+        margin-top: 2rem;
+    }
+    .ritual-container-2 .leftbox .img1 {
+        width: 200px;
+        height: 200px;
+    }
+    .ritual-container-2 .header-text {
+        font-size: 25px;
+    }
+    .ritual-container-2 .leftbox .img2 {
+        width: 100px;
+        height: 100px;
+        left: -3rem;
+        top: -2.5rem;
+    }
+    .ritual-container-2 .leftbox .img3 {
+        width: 150px;
+        height: 150px;
+        right: -3rem;
+        top: -1.5rem;
+    }
+    .ritual-container-2 .leftbox .img4 {
+        width: 100px;
+        height: 100px;
+        left: -2rem;
+        bottom: -2rem;
+    }
 
 
+    .social-media-links-container {
+        /*border: 2px solid #eb9f08;*/
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 385rem;
+        display: flex;
+        justify-content: center;
+        padding: 0 25px;
+    }
+    
+    .right-zone .accounts {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        grid-gap: 50px;
+        top: 14rem;
+    }
+    .right-zone .accounts .youtube , .right-zone .accounts .tiktok, .right-zone .accounts .blog {
+        border-radius: 20px;
+    }
+    .right-zone .header-intro-mobile {
+        width: 100%;
+        height: auto;
+    }
+    .right-zone .header-intro-mobile span {
+        background: #d39313;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-style: italic;
+
+    }
+    .right-zone .accounts .youtube li a , .right-zone .accounts .blog li a{
+        text-decoration: none;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+    }
+    .right-zone .accounts .tiktok li {
+        color: rgb(255, 255, 255);
+    }
+    .right-zone .accounts h1 i {
+        font-size: 50px;
+        color: #fff;
+    }
+    .right-zone .accounts .youtube {
+        background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.616), 
+            rgba(0, 0, 0, 0.616)
+          ),
+        url("https://i.pinimg.com/originals/b7/d9/59/b7d9593b5fa561eaf0eccae3be8666f0.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .right-zone .accounts .tiktok {
+        background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.616), 
+            rgba(0, 0, 0, 0.616)
+          ),
+        url("https://i.pinimg.com/originals/a1/6b/42/a16b42f39f34387f934ad11c7fc2fe9c.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .right-zone .accounts .blog{
+        background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.616), 
+            rgba(0, 0, 0, 0.616)
+          ),
+        url("https://i.pinimg.com/originals/8e/c4/32/8ec4324d97216a60414ca8774c8c8748.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+
+    .footer  {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
     
 
 
@@ -1830,7 +2027,7 @@ main {
 
 
 
-    .image-container .image1-container , .image-container .image3-container, .ritual-container, .footer, .social-media-links-container, .about-container .text2 , .about-container .text1, .religion-container .text1  {
+    .image-container .image1-container , .image-container .image3-container, .about-container .text2 , .about-container .text1, .religion-container .text1, .ritual-container .text1, .left-zone, .right-zone .header-intro {
         display: none;
     }
 }
