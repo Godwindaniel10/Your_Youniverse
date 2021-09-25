@@ -2016,8 +2016,11 @@ main {
 
     .footer  {
         position: absolute;
-        bottom: 0;
         text-align: center;
+        bottom: 0;
+    }
+    main {
+        height: 510rem;
     }
     
 
