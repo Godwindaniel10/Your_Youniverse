@@ -1953,6 +1953,7 @@ main {
     .right-zone .header-intro-mobile {
         width: 100%;
         height: auto;
+        display: block;
     }
     .right-zone .header-intro-mobile span {
         background: #d39313;
@@ -1962,7 +1963,6 @@ main {
         text-transform: uppercase;
         letter-spacing: 3px;
         font-style: italic;
-
     }
     .right-zone .accounts .youtube li a , .right-zone .accounts .blog li a{
         text-decoration: none;
@@ -2018,7 +2018,6 @@ main {
         position: absolute;
         bottom: 0;
         text-align: center;
-        display: none;
     }
     
 
