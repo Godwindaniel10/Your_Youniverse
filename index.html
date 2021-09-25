@@ -26,6 +26,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
  
 </head>
 <body>
@@ -72,7 +74,7 @@
         <div class="flex">
 
             <!--Card 1-->
-            <div class="card1">
+            <div data-aos="fade-up" class="card1" >
               <div class="header1">
                   <div class="title">
                     <div>
@@ -108,7 +110,7 @@
 
               <!--Card 2-->
 
-            <div class="card2">
+            <div data-aos="fade-up" class="card2">
                 <div class="header2">
                     <div class="title">
                       <div>
@@ -148,7 +150,7 @@
 
                 <!--Card 3-->
 
-              <div class="card3">
+              <div data-aos="fade-up" class="card3">
                 <div class="header3">
                     <div class="title">
                       <div>
@@ -197,14 +199,14 @@
               <h1 class="text1">About <span 
                 class="text2">Your_Youniverse</span></h1>
               <div class="about-container-2">
-                  <div class="leftbox">
+                  <div data-aos="fade-up-right" class="leftbox">
                         <div class="img1">
                         <div class="img2"></div>
                         <div class="img3"></div>
                         <div class="img4"></div>
                       </div>
                   </div>
-                  <div class="rightbox">
+                  <div data-aos="fade-up-left" class="rightbox">
                       <h1 class="header-text">Spirituality</h1><br><br>
                       <p class="p-text">Your_Youniverse is all about spirituality. Helping humanity wake up from this illusion and mind slavery and helping humanity find there true God like self and purpose in this world. Your_Youniverse inspires humanity on there journey. The process of awakening, the memory of one's own true nature and the resulting self-determination and the elements of life's journey. 
                         <br><br>
@@ -224,14 +226,14 @@
             <h1 class="text1"><span class="text2">Horrible Truth About</span>Religion</h1>
             <div class="religion-container-2">
                
-                <div class="rightbox">
+                <div data-aos="fade-up-right" class="rightbox">
                     <h1 class="header-text">Religion Exposed!</h1><br><br>
                     <h2>What is the basic purpose of religion?</h2>
                     <p class="p-text">Religion (particularly Christianity and Islam) are designed to focus the people's attention and energy on a single, unchanging, uncompromising and invisible supreme being who allegedly created an inferior human race just for some extra companionship and love for himself. Who then supposedly foisted a set of oppressive and in some cases arbitrary rules on them, which if broken would be met with unimaginable punishment.  
                     </p>
                     <a href="Religion_readmore.html" target="-blank" class="religion-readmore-btn">Read More</a>
                 </div>
-                <div class="leftbox">
+                <div data-aos="fade-up-left" class="leftbox">
                     <div class="img1">
                     <div class="img2"></div>
                     <div class="img3"></div>
@@ -251,14 +253,14 @@
 
           <h1 class="text1"><span class="text2">The Ritual</span>Space</h1>
           <div class="ritual-container-2">
-              <div class="leftbox">
+              <div data-aos="fade-up-right" class="leftbox">
                     <div class="img1">
                     <div class="img2"></div>
                     <div class="img3"></div>
                     <div class="img4"></div>
                   </div>
               </div>
-              <div class="rightbox">
+              <div data-aos="fade-up-left" class="rightbox">
                   <h1 class="header-text">Rituals &nbsp;&nbsp; & &nbsp;&nbsp; spells</h1><br><br>
                   <p class="p-text">
 
@@ -281,7 +283,7 @@
 
                 <h1 class="header-intro"><span>Social Media accounts & Blogs to visit if you want to gain <span class="span2">deep knowledge</span> in becoming your god like self</span> </h1>
                 <div class="accounts">
-                    <div class="youtube">
+                    <div data-aos="fade-up" class="youtube">
                         <h1><i class="fab fa-youtube"></i></h1>
                         <ul>
                             <li><a href="https://www.youtube.com/c/TYSPIRITUAL777">TY Spiritual</a></li>
@@ -294,7 +296,7 @@
                             <li><a href="https://www.youtube.com/LifeBlissFoundation">KAILASA's SPH Nithyananda</a></li>
                         </ul>
                     </div>
-                    <div class="tiktok">
+                    <div class="tiktok" data-aos="fade-up">
                         <h1><i class="fab fa-tiktok"></i></h1>
                         <ul>
                             <li>@your_youniverse</li>
@@ -311,7 +313,7 @@
                         </ul>
                     </div>
                     
-                    <div class="blog">
+                    <div data-aos="fade-up" class="blog">
                         <h1><i class="fas fa-blog"></i></h1>
                         <ul>
                             <li><a href="https://blog.sivanaspirit.com/category/spirituality/">Sivana Spirit</a></li>
@@ -344,7 +346,7 @@
 
 
 
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
    <script>
      $('.readmore1').click(function() {
@@ -390,7 +392,9 @@ function updatemenu() {
     document.getElementById('menu').style.borderRadius = '0px';
   }
 }
+AOS.init();
    </script>
+   
    
 </body>
 </html>
