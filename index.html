@@ -60,7 +60,7 @@
             <div class="image1"></div>
           </div>
             <div class="image2">
-                <div class="box1">
+                <div class="box1" id="box1">
                     <h1 class="header1">Your</h1>
                     <h1 class="header2">Youniverse</h1>
                     <p>Spirituality</p>
@@ -336,14 +336,11 @@
                 </div>
             </div>
 
-            <!-- BEGIN: Powered by Supercounters.com -->
-<center><script type="text/javascript" src="//widget.supercounters.com/ssl/hit.js"></script><script type="text/javascript">sc_hit(1621167,77,5);</script><br><noscript><a href="http://www.supercounters.com/">free online counter</a></noscript>
-</center>
-<!-- END: Powered by Supercounters.com -->
+           
 
             <div class="footer">
               <p class="copyright">All Rights Reserved | Copyright 2021 Your_youniverse & Godwin Daniel</p>
-
+                      
             </div>
             
     </main>
@@ -397,8 +394,10 @@ function updatemenu() {
   if (document.getElementById('responsive-menu').checked == true) {
     document.getElementById('menu').style.borderBottomRightRadius = '0';
     document.getElementById('menu').style.borderBottomLeftRadius = '0';
+    document.getElementById('box1').style.display = 'none';
   }else{
     document.getElementById('menu').style.borderRadius = '0px';
+    document.getElementById('box1').style.display = 'block';
   }
 }
 AOS.init();

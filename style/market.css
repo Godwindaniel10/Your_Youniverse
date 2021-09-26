@@ -23,7 +23,8 @@
 	background: #296d68;
 	color: #FFF;
 	height: 80px;
-    position: relative;
+	width: 100%;
+    position: fixed;
     z-index: 1000;
 }
 #menu ul, #menu li {

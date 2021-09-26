@@ -26,7 +26,8 @@ body {
 	background: #296d68;
 	color: #FFF;
 	height: 80px;
-    position: relative;
+    width: 100%;
+    position: fixed;
     z-index: 1000;
 }
 #menu ul, #menu li {
@@ -195,6 +196,7 @@ header {
     padding: 40px 50px;
     color: #fff;
     position: relative;
+    z-index: 1001;
 }
 .image2 .box1 h1 {
     font-family: 'Caesar Dressing', cursive;
@@ -2009,8 +2011,9 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    
 
-
+    
 
 
 
