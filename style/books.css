@@ -168,13 +168,15 @@
 	align-items: center;
 	padding: 20px;
 }
-.book1 p {
+.book1 p, .book2 p, .book3 p, .book4 p, .book5 p, .book6 p, .book7 p, .book8 p, .book9 p, .book10 p,
+.book11 p, .book12 p, .book13 p, .book14 p, .book15 p {
 	font-size: 17px;
 	line-height: 27px;
 	display: none;
 	color: #fff;
 }
-.book1:hover {
+.book1:hover, .book2:hover, .book3:hover, .book4:hover, .book5:hover, .book6:hover, .book7:hover, .book8:hover, .book9:hover, .book10:hover,
+.book11:hover, .book12:hover, .book13:hover, .book14:hover, .book15:hover{
 	background: #000;
 	transition: all 1s;
 	cursor: pointer;
@@ -186,6 +188,10 @@
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/the-celestine.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .book3 {
@@ -199,23 +205,16 @@
 	justify-content: center;
 	align-items: center;
 }
-.book3 p {
-	font-size: 17px;
-	line-height: 27px;
-	display: none;
-	color: #fff;
-}
-.book3:hover {
-	background: #000;
-	transition: all 1s;
-	cursor: pointer;
-	border: 10px solid #d39313;
-}
+
 .book4 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/the-alchemist-25th-anniversary.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .book5 {
@@ -223,27 +222,46 @@
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/7-spiritual-laws-of-success.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 
 .book6 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
-	background: url("/image/sidd.jpg") no-repeat center;
+	background: url("/image/sacred-woman.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 
 .book7 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
-	background: url("/image/conversations-with-god\ \(1\).jpg") no-repeat center;
+	background: url("/image/here-all-along.png") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 
 .book8 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/A-New-Earth.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .book9 {
@@ -251,6 +269,10 @@
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/the-untethered-soul.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 .book10 {
@@ -258,27 +280,47 @@
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/tao.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 
 .book11 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
 	background: url("/image/mindfull.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 
 .book12 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
-	background: url("/image/be-as-you-are.jpg") no-repeat center;
+	background: url("/image/becoming-.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 .book13 {
 	border: 10px solid #d39313;
 	height: 450px;
 	border-radius: 20px;
-	background: url("/image/i-am-that.jpg") no-repeat center;
+	background: url("/image/strang.jpg") no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
+
 .book14 {
 	border: 10px solid #d39313;
 	height: 450px;
