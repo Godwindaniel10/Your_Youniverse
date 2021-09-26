@@ -129,3 +129,24 @@ book13.addEventListener("mouseover" , function(){
 book13.addEventListener("mouseout" , function(){
   document.getElementById("book13p").style.display = "none";
 });
+
+
+/* book14 */
+const book14 = document.getElementById("book14");
+book14.addEventListener("mouseover" , function(){
+  document.getElementById("book14p").style.display = "block";
+});
+book14.addEventListener("mouseout" , function(){
+  document.getElementById("book14p").style.display = "none";
+});
+
+
+
+/* book15 */
+const book15 = document.getElementById("book15");
+book15.addEventListener("mouseover" , function(){
+  document.getElementById("book15p").style.display = "block";
+});
+book15.addEventListener("mouseout" , function(){
+  document.getElementById("book15p").style.display = "none";
+});
