@@ -1672,6 +1672,14 @@ img {
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    #menu {
+        background: #296d68;
+        color: #FFF;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+    }
 
     header {
         width: 100%;

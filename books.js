@@ -1,3 +1,6 @@
+AOS.init();
+
+
 /* book1 */
 const book1 = document.getElementById("book1");
 book1.addEventListener("mouseover" , function(){
@@ -150,3 +153,4 @@ book15.addEventListener("mouseover" , function(){
 book15.addEventListener("mouseout" , function(){
   document.getElementById("book15p").style.display = "none";
 });
+
